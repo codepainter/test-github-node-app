@@ -16,7 +16,7 @@ const app = Fastify({
 app.register(require('./index.js'))
 
 // Start listening.
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || '0.0.0.0'
 app.listen(PORT, err => {
     if (err) {
         app.log.error(err)
