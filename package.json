@@ -7,7 +7,7 @@
         "test": "test"
     },
     "scripts": {
-        "start": "fastify start -l info src/index.js",
+        "start": "node src/server.js",
         "dev": "fastify start -w -l info -P src/index.js"
     },
     "keywords": [],
