@@ -1,0 +1,25 @@
+{
+    "name": "test-github-node-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "start": "fastify start -l info src/index.js",
+        "dev": "fastify start -w -l info -P src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "fastify": "^3.2.0",
+        "fastify-plugin": "^2.3.0",
+        "fastify-autoload": "^3.0.8",
+        "fastify-cli": "^2.1.0"
+    },
+    "devDependencies": {
+        "tap": "^14.10.8"
+    }
+}
